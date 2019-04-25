@@ -1,8 +1,4 @@
----
-title: "README"
-author: "Ellis Valentiner"
-date: "2017-01-29"
-output: github_document
+
 ---
 
 This is a look at the sentiment of tweets by President Trump (@realDonaldTrump).
@@ -144,5 +140,4 @@ g <- ggplot(df) +
 ggsave(filename = "sentiment.svg", plot = g, width = (16/9)*5, height = 5, units = "in")
 ```
 
-![](sentiment.svg)
 
